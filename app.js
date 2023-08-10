@@ -35,7 +35,7 @@ io.on("connection", (socket) => {
   });
 });
 
-//----------- This is testing rotute -----------//
+//----------- This is testing rotut -----------//
 app.get("/api/home", (req, res) => {
   try {
     res.json({ message: "This is home route" });
